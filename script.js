@@ -9,13 +9,15 @@ const citations = {
   doi     = {10.1109/ACCESS.2026.3736562}
 }`,
   reqtestagent: `@article{shi2026reqtestagent,
-  title   = {{ReqTestAgent}: Execution-Grounded Language-Model Agents for Acceptance Testing under Requirement Ambiguity},
+  title   = {{ReqTestAgent}: execution-grounded language-model agents for acceptance testing under requirement ambiguity},
   author  = {Shi, Yunjiao and Song, Rui},
   journal = {Frontiers in Artificial Intelligence},
   year    = {2026},
-  note    = {Accepted 30 September 2026; in production},
+  volume  = {9},
+  pages   = {1960601},
+  month   = oct,
   doi     = {10.3389/frai.2026.1960601},
-  url     = {https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1960601/abstract}
+  url     = {https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1960601/full}
 }`,
 };
 
