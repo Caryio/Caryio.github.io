@@ -61,6 +61,7 @@ h1 { margin: 0 0 26px; font-family: var(--serif); font-size: clamp(57px, 5.8vw, 
 .publication-overview { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; margin: -8px 0 30px; }
 .publication-counts { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; margin: 0; }
 .publication-count { display: inline-flex; align-items: baseline; gap: 8px; padding: 4px 13px; border: 1px solid #d5deeb; border-radius: 6px; background: #eef2f8; color: var(--accent); font-size: 16px; }
+.publication-count.accepted-count { border-color: #e6dccb; background: #f5f0e8; color: #74562f; }
 .publication-count strong { font-size: 18px; font-weight: 650; font-variant-numeric: tabular-nums; }
 .publication-list { --date-column: 94px; --date-gap: 40px; }
 .publication { position: relative; display: grid; grid-template-columns: var(--date-column) minmax(0, 1fr); gap: var(--date-gap); padding-bottom: 56px; }
@@ -76,6 +77,7 @@ h1 { margin: 0 0 26px; font-family: var(--serif); font-size: clamp(57px, 5.8vw, 
 .date-event { display: block; margin-top: 6px; color: var(--muted); font-size: 14px; }
 .publication-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; font-size: 14px; color: var(--muted); margin-bottom: 14px; }
 .venue { font-size: 15px; font-weight: 600; color: var(--accent); }
+.publication-type { color: var(--muted); font-size: 14px; }
 .publication-status { font-size: 14px; font-weight: 550; color: var(--accent); background: #e7eef8; padding: 2px 10px; border-radius: 3px; }
 .publication-status.accepted { background: #f1eade; color: #74562f; }
 .publication h3 { font-size: 22px; line-height: 1.5; font-weight: 550; letter-spacing: -.3px; margin: 0 0 14px; }

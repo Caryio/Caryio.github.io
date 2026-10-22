@@ -19,6 +19,13 @@ const citations = {
   doi     = {10.3389/frai.2026.1960601},
   url     = {https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1960601/full}
 }`,
+  mmm2027: `@inproceedings{shi2027evidencepseudoreplication,
+  title     = {When Five Agents Cite One Source: Evidence Pseudoreplication in {LLM} Multi-Agent Fact Verification},
+  author    = {Shi, Yunjiao and Song, Rui},
+  booktitle = {MMM 2027},
+  year      = {2027},
+  note      = {Accepted 19 October 2026}
+}`,
 };
 
 const citationDialog = document.querySelector('#citation-dialog');
